@@ -1,10 +1,18 @@
 import express from 'express';
+import TriangulationBox from './components/TriangulationBox';
 
+const port = process.env.PORT || 3000;
 const app = express();
-const port = process.env.PORT || 3210;
-app.get('/', (req, res) => {
-  res.send('TEST 5');
+
+app.get('/triangulation_box', (req, res) => {
+  res.json(
+    new TriangulationBox(
+      Number(req.query.width),
+      Number(req.query.height),
+      Number(req.query.dept))
+  );
 });
-app.listen({ port }, () =>
+
+app.listen({port}, () =>
   console.log(`Server running at port:${port}`)
 );
