@@ -16,7 +16,8 @@
   "author": "Maxim Shmatov",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "earcut": "file:addons/earcut"
   },
   "devDependencies": {
     "@types/express": "^4.17.9",

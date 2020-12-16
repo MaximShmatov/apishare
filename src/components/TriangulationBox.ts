@@ -1,4 +1,4 @@
-import addon from '../addons/earcut/earcut';
+import addon from '../../node_modules/earcut/earcut';
 import ITriangulationBox from './TriangulationBox';
 
 class TriangulationBox implements ITriangulationBox {
