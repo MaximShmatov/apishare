@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "earcut",
-      "sources": [ "addons/earcut/earcut.cc" ]
+      "sources": [ "src/addons/earcut/earcut.cc" ]
     }
   ]
 }
