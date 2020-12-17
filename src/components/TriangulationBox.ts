@@ -1,4 +1,3 @@
-// @ts-ignore
 import addon from '../../build/Release/earcut.node';
 import ITriangulationBox from './TriangulationBox';
 

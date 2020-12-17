@@ -5,6 +5,7 @@ const port = process.env.PORT || 3000;
 const app = express();
 
 app.get('/triangulation_box', (req, res) => {
+  res.append('Access-Control-Allow-Origin', '*');
   res.json(
     new TriangulationBox(
       Number(req.query.width),
