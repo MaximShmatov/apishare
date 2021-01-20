@@ -11,7 +11,7 @@ https://apishare.herokuapp.com/triangulation_box?width=100&height=100&dept=100
 #### `npm start`
 
 Запуск предварительно собранного проекта.\
-Откройте [http://localhost:3000](http://localhost:3000) для просмотра в браузере.
+Откройте [http://localhost:3000/triangulation_box?width=100&height=100&dept=100](http://localhost:3000) для просмотра в браузере.
 
 #### `npm run build`
 Запуск производственной сборки.
